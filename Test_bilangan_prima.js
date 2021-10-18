@@ -1,14 +1,21 @@
 const a = require('readline-sync')
-const que = a.question('Input N = ')
-for (i = 1; i <= que; i++) {
-    var b = 0
-    for (j = 0; j <= que; j++) {
-        if (i % j == 0) {
-            b++
+const que = a.questionInt('Input N = ')
+function prima(number) {
+    let primas = [];
+    for (let i = 2; i; i++) {
+        let isprime = true;
+        for (let j = 2; j < i; j++) {
+            if (i % j === 0) {
+                isprime = false;
+                break;
+            }
         }
+        if (isprime) primas.push(i);
+        if (primas.length === number) break;
     }
-    if (b == 2) {
-        console.log(i);
-    }
+    return primas.join(',');
 }
+
+console.log(prima(que));
+
 
