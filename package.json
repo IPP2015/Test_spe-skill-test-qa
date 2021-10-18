@@ -1,0 +1,23 @@
+{
+  "name": "test_spe-skill-test-qa",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IPP2015/spe-skill-test-qa.git"
+  },
+  "author": "IPP2015",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IPP2015/spe-skill-test-qa/issues"
+  },
+  "homepage": "https://github.com/IPP2015/spe-skill-test-qa#readme",
+  "dependencies": {
+    "nodejs": "^0.0.0",
+    "readline-sync": "^1.4.10"
+  }
+}
