@@ -11,3 +11,4 @@ for (i = 1; i <= que; i++) {
         console.log(i);
     }
 }
+
